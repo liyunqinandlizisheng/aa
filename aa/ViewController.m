@@ -19,6 +19,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     UIImage *image = [UIImage imageNamed:@""];
+    //
+    UIImageView *tempImageView = [[UIImageView alloc] init];
+    [self.view addSubview:tempImageView];
 }
 
 - (void)didReceiveMemoryWarning {
